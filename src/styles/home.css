@@ -1,0 +1,23 @@
+.home{
+    height: 100vh;
+    position: relative;
+    background-color: grey;
+}
+
+.home .icon{
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    width: 110px;
+    background: #222222;
+    height: 80px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .home .icon{
+        display: none;
+    }
+}

@@ -1,0 +1,60 @@
+.sidebar{
+    position: absolute;
+    right: 5%;
+    top:100%;
+}
+.sidebar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.sidebar li{
+    width: 110px;
+    text-align: center;
+    background-color: #222222;
+}
+
+.sidebar a{
+    text-decoration: none;
+    display: block;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.sidebar a:hover{
+    color: grey;
+}
+
+.small-nav{
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+    display: none;
+}
+.small-nav a{
+    color: #FFFFFF !important;
+    text-align: center;
+}
+
+.small-nav a:hover{
+    color: grey !important;
+}
+
+@media screen and (max-width:768px) {
+    .sidebar{
+        display: none;
+    }  
+    .small-nav{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .small-nav .container{
+        max-width: none;
+    }
+}

@@ -1,0 +1,28 @@
+#contact{
+    background-color: #434242;
+}
+#contact h2{
+    color: #fff;
+}
+#contact hr{
+    border-color: #727878;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+#contact a{
+    text-decoration: none;
+    display: block;
+    line-height: 32px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    color: #fff;
+}
+#contact .icon{
+    font-size: 2rem;
+    margin-right: 20px;
+    float: left;
+}
+
+#contact a:hover{
+    opacity: 1;
+}
