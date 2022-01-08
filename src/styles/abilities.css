@@ -1,0 +1,26 @@
+#abilities ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#abilities li{
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#abilities li:hover{
+    background-color: #f2f2f2;
+}
+#abilities li:hover .icons{
+    margin-left: 2px;
+    display: inline-block;
+}
+
+#abilities .icons{
+    color: #22A39F;
+    transition: all 0.3s;
+}
