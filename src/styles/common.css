@@ -1,0 +1,38 @@
+h2,h3{
+    font-weight: 300 !important;
+    color: #22A39F;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+h2{
+    font-size: 54px !important;
+    text-align: center;
+}
+h3{
+    font-size: 28px !important;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+hr{
+    margin: 40px 0px !important; 
+    border-color: #727878;
+    opacity: 0.2;
+    border: 0;
+    border-top: 1px solid #727878;
+}
+
+.container{
+    padding: 3% 13.5% !important;
+    margin: auto;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        padding: 3% 2% !important;
+    }
+}
